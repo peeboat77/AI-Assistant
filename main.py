@@ -33,7 +33,7 @@ def connect_to_vstore():
     return vstore
 
 vstore = connect_to_vstore
-add_to_vector_store = input("Want to update the issues? (y/N): ").lower() in ["yes", "y"]
+add_to_vector_store = input("Do you want to update the issues? (y/N): ").lower() in ["yes", "y"]
 
 
 if add_to_vector_store:
